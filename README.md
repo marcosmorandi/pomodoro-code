@@ -5,7 +5,7 @@
 - [x] Criar um cronometro de 25 minutos.
 - [X] Criar o visual do ativado do cronômetro.
 - [X] Conectar o ativador do cronômetro com a função de criar cronômetro.
-- [ ] Mapear o tempo e 25min depois de começar precisamos dar um aviso que terminou.
+- [X] Disparar um aviso ao fim do cronômetro.
 - [ ] Exibir visualmente o tempo restante.
 - [ ] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
 - [ ] Exibir uma contagem de pomodoros.
