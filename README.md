@@ -9,17 +9,17 @@
 - [X] Criar a lógica de contador de segundos.
 - [X] Calcular o tempo restante no cronômetro.
 - [X] Criar o componente do cronômetro na tela.
-- [ ] Exibir visualmente o tempo restante, no componente do cronômetro.
+- [X] Exibir visualmente o tempo restante, no componente do cronômetro.
 - [ ] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
 - [ ] Exibir uma contagem de pomodoros.
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15 minutos.
 - [ ] Botão para pausar e retomar ao contador.
+- [ ] Ter uma apresentação visual melhor para o aviso de fim do cronômetro.
 - [ ] Avisos sonoros para cada início e fim.
 - [ ] Ativar função de ir no automatico para próxima etapa do pomodoro.
 
 
 ### Extra:
-
 - [ ] Notificações no navegador para cada aviso de início e fim.
 - [ ] Configurar a quantidade de tempo de um bloco de trabalho e um bloco de intervalo.
 - [ ] Ter uma lista de tarefas executadas.
