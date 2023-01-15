@@ -10,7 +10,7 @@
 - [X] Calcular o tempo restante no cronômetro.
 - [X] Criar o componente do cronômetro na tela.
 - [X] Exibir visualmente o tempo restante, no componente do cronômetro.
-- [ ] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
+- [X] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
 - [ ] Exibir uma contagem de pomodoros.
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15 minutos.
 - [ ] Botão para pausar e retomar ao contador.
