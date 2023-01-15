@@ -23,10 +23,15 @@ function contadorDeSegundos() {
     if (milissegundosRestantes == 0) {
         cronometro.textContent = "00:00"
         console.log("O seu tempo de produção do pomodoro acabou. Vá descansar!")
+
         if (disparador.textContent=="Começar"){
             disparador.textContent = "Intervalo"
+            document.querySelector('body').style.background = "#287b7e"
+            disparador.style.color = "#287b7e"
         } else {
             disparador.textContent="Começar"
+            document.querySelector('body').style.background = "#C84949"
+            disparador.style.color = "#C84949"
         }
 
 
