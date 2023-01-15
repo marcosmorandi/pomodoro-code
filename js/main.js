@@ -11,7 +11,7 @@ disparador.addEventListener('click', () => {
     contador = setInterval('contadorDeSegundos()', 1000);
 })
 
-function contadorDeSegundos() {    
+function contadorDeSegundos() {
 
     if (milissegundosRestantes == 0) {
         console.log("Acabou o pomodoro!");
