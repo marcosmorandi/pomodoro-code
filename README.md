@@ -12,7 +12,7 @@
 - [X] Exibir visualmente o tempo restante, no componente do cronômetro.
 - [X] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
 - [X] Mudar a cor na troca de cada estado.
-- [ ] Botão para pausar e retomar ao contador.
+- [X] Botão para pausar e retomar ao contador.
 - [ ] Exibir uma contagem de pomodoros.
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15 minutos.
 - [ ] Ter uma apresentação visual melhor para o aviso de fim do cronômetro.
