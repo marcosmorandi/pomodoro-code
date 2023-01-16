@@ -28,4 +28,4 @@
 - [ ] Extensão do navegador.
 - [ ] Alterar o tema.
 - [ ] Função de esconder o timer.
-- [ ] Acessibilidade para o cronômetro com a tag <tag>
+- [ ] Acessibilidade para o cronômetro com a tag <time>
