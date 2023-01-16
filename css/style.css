@@ -46,3 +46,7 @@ body {
 .historico {
     margin: 1em;
 }
+
+.historico::before {
+    content: "#";
+}
