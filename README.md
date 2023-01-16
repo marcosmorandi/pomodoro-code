@@ -11,9 +11,10 @@
 - [X] Criar o componente do cronômetro na tela.
 - [X] Exibir visualmente o tempo restante, no componente do cronômetro.
 - [X] Ter uma outra ativação do cronometro, com 5min, para o intervalo.
+- [X] Mudar a cor na troca de cada estado.
+- [ ] Botão para pausar e retomar ao contador.
 - [ ] Exibir uma contagem de pomodoros.
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15 minutos.
-- [ ] Botão para pausar e retomar ao contador.
 - [ ] Ter uma apresentação visual melhor para o aviso de fim do cronômetro.
 - [ ] Avisos sonoros para cada início e fim.
 - [ ] Ativar função de ir no automatico para próxima etapa do pomodoro.

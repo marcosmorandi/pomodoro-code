@@ -8,14 +8,21 @@ let contador
 disparador.addEventListener('click', () => {
     console.log("Disparador ativado.")
 
-    if (disparador.textContent=="Começar"){
-        milissegundosRestantes = milissegundosPomodoro - 1000
-        
-    } else {
-        milissegundosRestantes = milissegundosIntervalo - 1000
+    if(disparador.textContent=="Pausar") {
+        clearInterval(contador)
+        disparador.textContent="Retomar"
+    }   else {
+        if(disparador.textContent=="Começar") {
+            milissegundosRestantes = milissegundosPomodoro - 1000
+
+        }   else if(disparador.textContent=="Intervalo") {
+            milissegundosRestantes = milissegundosIntervalo - 1000
+        }
+
+        disparador.textContent="Pausar"
+        contador = setInterval('contadorDeSegundos()', 1000);
     }
 
-    contador = setInterval('contadorDeSegundos()', 1000);
 })
 
 function contadorDeSegundos() {
@@ -48,3 +55,12 @@ function formatadorDoTempo(tempo) {
     const segundos = tempo % 60;
     return (minutos.toString().padStart(2, '0')+":"+segundos.toString().padStart(2, '0'))
 }
+
+
+
+
+// Ao dar o play eu tenho que trocar o texto do botão - ok
+// Se o botão for clicado e o texto for "pausar" eu tenho que interromper o contador mas...
+//salvar a quantidade de segundos que restam.
+// Trocar o texto para "retonar".
+// Quando retornar retomar o contador.
