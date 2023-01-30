@@ -27,12 +27,10 @@ O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durant
 - [X] Avisos sonoros para cada início e fim.
 - [X] Ativar função de ir no automático para a próxima etapa do pomodoro.
 
+## Screenshot
+<p align="middle">
+<img src="image/printscreen.png" width="100%" height="100%">
+</p>
+
 ## Acesse
 <a href="#">[Inserir quando houver deploy]</a>
-
-
-## Screenshots
-<p align="middle">
-<img src="#" width="100%" height="100%">
-</p>
-...
