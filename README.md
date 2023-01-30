@@ -29,7 +29,7 @@ O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durant
 
 ## Screenshot
 <p align="middle">
-<img src="image/printscreen.png" width="100%" height="100%">
+<img src="image/screenshot.png" width="100%" height="100%">
 </p>
 
 ## Acesse
