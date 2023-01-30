@@ -33,4 +33,4 @@ O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durant
 </p>
 
 ## Acesse
-<a href="#">https://marcosmorandi.github.io/pomodoro-code/</a>
+<a href="#">https://marcosmorandi-pomodoro-code.netlify.app</a>
