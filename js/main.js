@@ -1,6 +1,6 @@
-const milissegundosPomodoro = 3000
-const milissegundosIntervaloCurto = 4000
-const milissegundosIntervaloLongo = 900000
+const milissegundosPomodoro = 3000 // Estamos usando 3 segundos para testes. O tempo oficial de 25 minutos é 25*60*1000
+const milissegundosIntervaloCurto = 4000 // Intervalo de 5 minutos é de 300000 ms
+const milissegundosIntervaloLongo = 900000 // Intervalo de 5 minutos é de 300000 ms
 const disparador = document.querySelector('#disparador')
 const cronometro = document.querySelector('#cronometro')
 const historico = document.querySelector('#historico')
