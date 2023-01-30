@@ -4,6 +4,7 @@ const milissegundosIntervaloLongo = 900000 // Intervalo de 5 minutos é de 30000
 const disparador = document.querySelector('#disparador')
 const cronometro = document.querySelector('#cronometro')
 const historico = document.querySelector('#historico')
+const auto = document.querySelector('#historico')
 const tamanhoDoCiclo = 4
 let milissegundosRestantes = 0
 let contador
@@ -16,7 +17,9 @@ const audioFimPomodoro = new Audio("../audio/fimPomodoro.ogg")
 const audioInicioIntervalo = new Audio("../audio/inicioIntervalo.ogg")
 const audioFimIntervalo = new Audio("../audio/fimIntervalo.ogg")
 
-disparador.addEventListener('click', () => {
+disparador.addEventListener('click', disparaContador)
+
+function disparaContador() {
     console.log("Disparador ativado.")
 
     if(disparador.textContent=="Pausar") {
@@ -40,14 +43,12 @@ disparador.addEventListener('click', () => {
             }   else {
                 milissegundosRestantes = milissegundosIntervaloCurto
             }
-            milissegundosRestantes -= 1000
         }
 
         disparador.textContent="Pausar"
         contador = setInterval('contadorDeSegundos()', 1000);
     }
-
-})
+}
 
 function contadorDeSegundos() {
 
@@ -73,6 +74,8 @@ function contadorDeSegundos() {
             document.querySelector('body').style.background = "#C84949"
             disparador.style.color = "#C84949"
         }
+
+        // ver se o auto está ativado e executar novamente
 
         clearInterval(contador)
     } else {
