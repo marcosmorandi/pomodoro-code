@@ -1,8 +1,7 @@
 # pomodoro-code
-
 Ferramenta para auxiliar na aplicação do método Pomodoro. Controle seus ciclos de foco e descanso e aumente sua produtividade. 
 
-## Objetivo
+# Objetivo
 
 O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durante o evento Live CoDe da Comunidade CoDe.
 
@@ -42,14 +41,7 @@ O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durant
 - [ ] Função de esconder o timer.
 - [ ] Acessibilidade para o cronometro com a tag. <time>
 
-
-## Funcionalidades
-
-:hammer_and_wrench: ...; <br>
-
-
 ## Acesse
-
 <a href="#">Inserir quando houver deploy</a>.
 
 
