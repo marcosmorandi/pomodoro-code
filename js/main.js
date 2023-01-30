@@ -9,6 +9,13 @@ let milissegundosRestantes = 0
 let contador
 let modo = ''
 
+
+const audioInicioPomodoro = new Audio("../audio/inicioPomodoro.ogg")
+const audioFimPomodoro = new Audio("../audio/fimPomodoro.ogg")
+
+const audioInicioIntervalo = new Audio("../audio/inicioIntervalo.ogg")
+const audioFimIntervalo = new Audio("../audio/fimIntervalo.ogg")
+
 disparador.addEventListener('click', () => {
     console.log("Disparador ativado.")
 
@@ -18,10 +25,16 @@ disparador.addEventListener('click', () => {
     }   else {
         if(disparador.textContent=="Começar") {
             modo = "pomodoro"
+
+            audioInicioPomodoro.play()
+
             milissegundosRestantes = milissegundosPomodoro - 1000
             historico.textContent = parseInt(historico.textContent) + 1
         }   else if(disparador.textContent=="Intervalo") {
             modo = "intervalo"
+
+            audioInicioIntervalo.play()
+
             if (historico.textContent % tamanhoDoCiclo == 0) {
                 milissegundosRestantes = milissegundosIntervaloLongo
             }   else {
@@ -36,7 +49,6 @@ disparador.addEventListener('click', () => {
 
 })
 
-
 function contadorDeSegundos() {
 
     if (milissegundosRestantes == 0) {
@@ -44,6 +56,8 @@ function contadorDeSegundos() {
         console.log("O seu tempo de produção do pomodoro acabou. Vá descansar!")
 
         if (modo =="pomodoro"){
+            audioFimPomodoro.play()
+
             disparador.textContent = "Intervalo"
             if (historico.textContent % tamanhoDoCiclo == 0) {
                 document.querySelector('body').style.background = "#29678a"
@@ -53,6 +67,8 @@ function contadorDeSegundos() {
                 disparador.style.color = "#287b7e"
             }
         } else if (modo=="intervalo"){
+            audioFimIntervalo.play()
+
             disparador.textContent="Começar"
             document.querySelector('body').style.background = "#C84949"
             disparador.style.color = "#C84949"
