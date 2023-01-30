@@ -4,7 +4,7 @@ const milissegundosIntervaloLongo = 900000 // Intervalo de 5 minutos é de 30000
 const disparador = document.querySelector('#disparador')
 const cronometro = document.querySelector('#cronometro')
 const historico = document.querySelector('#historico')
-const auto = document.querySelector('#historico')
+const auto = document.querySelector('#auto')
 const tamanhoDoCiclo = 4
 let milissegundosRestantes = 0
 let contador
@@ -75,7 +75,9 @@ function contadorDeSegundos() {
             disparador.style.color = "#C84949"
         }
 
-        // ver se o auto está ativado e executar novamente
+        if(auto=='checked') {
+
+        }
 
         clearInterval(contador)
     } else {
