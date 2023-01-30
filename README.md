@@ -48,3 +48,4 @@ O objetivo deste projeto foi desenvolver um sistema do Pomodoro em equipe durant
 <p align="middle">
 <img src="#" width="100%" height="100%">
 </p>
+...
